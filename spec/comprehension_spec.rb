@@ -13,7 +13,7 @@ describe "GIT" do
   end
 
   it "3. What is the syntax for committing all staged changes with the message 
-      'update link styles'?" do
+      'update link styles'git commit -m 'update link styles'" do
     answer = "?"
     encoded_answer = "8d06e2760cda4755f387db0db0e6c425b2ece976"
     expect(encode(answer)).to eq(encoded_answer)
