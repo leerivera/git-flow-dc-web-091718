@@ -17,7 +17,7 @@ describe "GIT" do
     answer = "git commit -m 'update link styles'?"
     encoded_answer = "8d06e2760cda4755f387db0db0e6c425b2ece976"
     expect(encode(answer)).to eq(encoded_answer)
-  end
+  
   end
 
   it "4. What command allows you to add all previously all tracked, modified files
